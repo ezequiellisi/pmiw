@@ -78,13 +78,14 @@ function mousePressed() {
 }
 
 function keyPressed() {
-  if (key=='i' || key=='I') {
+  if (key==='i' || key==='I') {
     invertir = !invertir;
   }
 
-  if (keyCode == ENTER) {
+  if (keyCode === ENTER) {
     cant = 14;
     tam = (width / 2) / cant;
     invertir = false;
   }
 }
+

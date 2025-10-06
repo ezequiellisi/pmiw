@@ -33,7 +33,7 @@ function draw() {
 
 
 function mousePressed() {
-  if (inicio !== 3 && inicio !== 6 && inicio !== 9 && inicio !== 13 && inicio !== 15) { // Excluye diapositivas con dos botones + la de créditos.
+  if (inicio !=== 3 && inicio !=== 6 && inicio !=== 9 && inicio !=== 13 && inicio !=== 15) { // Excluye diapositivas con dos botones + la de créditos.
     if (mouseX > 500 && mouseX < 600 && mouseY > 400 && mouseY < 440) { // Detecta clics sobre botones de diapositivas con un solo botón.
       inicio++;
     }
@@ -90,3 +90,4 @@ function mousePressed() {
     }
   }
 }
+

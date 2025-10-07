@@ -5,7 +5,7 @@ function frases() {
 
 // Esta función lo que hace es decir qué botones van en cada diapositiva. Los condicionales deciden qué botones aparecen. Llama a dibujarBoton() para mostrar los botones.
 function botones(pagina) {
-  if (pagina !=== 3 && pagina !=== 6 && pagina !=== 7 && pagina !=== 9 && pagina !=== 10 && pagina !=== 13 && pagina !=== 14 && pagina !=== 15) { //Ecluimos diapositivas con dos botones + la de créditos + la de finales.
+  if (pagina !== 3 && pagina !== 6 && pagina !== 7 && pagina !== 9 && pagina !== 10 && pagina !== 13 && pagina !== 14 && pagina !== 15) { //Ecluimos diapositivas con dos botones + la de créditos + la de finales.
     dibujarBoton(500, 400, 100, 40, "SIGUIENTE");
   }
 
@@ -51,4 +51,5 @@ function dibujarBoton(x, y, ancho, alto, texto) {
   textAlign(CENTER, CENTER);
   text(texto, x + ancho/2, y + alto/2);
 }
+
 
